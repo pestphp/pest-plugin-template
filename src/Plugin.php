@@ -12,5 +12,5 @@ namespace Pest\PluginName;
  */
 final class Plugin
 {
-    // ..
+    //
 }

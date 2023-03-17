@@ -16,7 +16,7 @@ trait Example
      */
     public function example(string $name): TestCase
     {
-        $this->assertNotEmpty($name);
+        expect($name)->toBeString();
 
         return $this;
     }
